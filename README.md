@@ -1,1 +1,1 @@
-# ha-prayer-time
+prayer_times
