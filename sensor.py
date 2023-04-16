@@ -17,34 +17,33 @@ from datetime import datetime
 SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
     SensorEntityDescription(
         key="Fajr",
-        name="Fajr",
+        name="Fajr prayer",
     ),
     SensorEntityDescription(
         key="Sunrise",
-        name="Sunrise",
+        name="Sunrise time",
     ),
     SensorEntityDescription(
         key="Dhuhr",
-        name="Dhuhr",
+        name="Dhuhr prayer",
     ),
     SensorEntityDescription(
         key="Asr",
-        name="Asr",
+        name="Asr prayer",
     ),
     SensorEntityDescription(
         key="Maghrib",
-        name="Maghrib",
+        name="Maghrib prayer",
     ),
     SensorEntityDescription(
         key="Isha",
-        name="Isha",
+        name="Isha prayer",
     ),
     SensorEntityDescription(
         key="Midnight",
-        name="Midnight",
+        name="Midnight time",
     ),
 )
-
 
 async def async_setup_entry(
     hass: HomeAssistant,
