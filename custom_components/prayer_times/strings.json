@@ -1,0 +1,17 @@
+{
+  "config": {
+    "flow_title": "Setup Prayer Times",
+    "step": {
+      "user": {
+        "title": "Configure Prayer Times",
+        "description": "Set all parameters here",
+        "data": {
+          "coord": "Use system geo co-ordinates"
+        }
+      }
+    },
+    "error": {
+      "only_go": "Must use co-ordinates"
+    }
+  }
+}
