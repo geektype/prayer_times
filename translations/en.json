@@ -1,0 +1,15 @@
+{
+    "config": {
+        "error": {
+            "only_geo": "Currently, only Geo co-ordinates are supported for location",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "coord": "Use system co-ordinates"
+                }
+            }
+        }
+    }
+}
