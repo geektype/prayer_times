@@ -1,6 +1,7 @@
 {
   "domain": "prayer_times",
   "name": "Prayer Times",
+  "version": "0.0.1",
   "codeowners": ["@geektype"],
   "config_flow": true,
   "dependencies": [],
