@@ -1,14 +1,18 @@
 {
-  "domain": "prayer_times",
-  "name": "Prayer Times",
-  "version": "0.0.1",
-  "codeowners": ["@geektype"],
+  "codeowners": [
+    "@geektype"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/prayer_times",
+  "domain": "prayer_times",
   "homekit": {},
   "iot_class": "cloud_polling",
-  "requirements": ["adhan-time==0.3.2"],
+  "name": "Prayer Times",
+  "requirements": [
+    "adhan-time==0.3.2"
+  ],
   "ssdp": [],
+  "version": "0.0.1",
   "zeroconf": []
 }
